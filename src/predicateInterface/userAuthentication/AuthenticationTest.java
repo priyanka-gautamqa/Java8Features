@@ -1,4 +1,4 @@
-package predicateExamples.userAuthentication;
+package predicateInterface.userAuthentication;
 
 import java.util.Scanner;
 import java.util.function.Predicate;

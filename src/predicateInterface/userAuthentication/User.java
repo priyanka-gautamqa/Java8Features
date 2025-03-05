@@ -1,4 +1,4 @@
-package predicateExamples.userAuthentication;
+package predicateInterface.userAuthentication;
 
 public class User {
 

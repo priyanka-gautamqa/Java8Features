@@ -1,4 +1,4 @@
-package predicateExamples;
+package predicateInterface;
 
 import java.util.ArrayList;
 import java.util.Collection;

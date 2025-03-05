@@ -1,4 +1,4 @@
-package predicateExamples.employeeManagementApp;
+package predicateInterface.employeeManagementApp;
 
 public class Employee {
 

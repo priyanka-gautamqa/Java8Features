@@ -1,7 +1,5 @@
 package functionInterface.employeeData;
 
-import predicateExamples.employeeManagementApp.Employee;
-
 import java.util.ArrayList;
 import java.util.function.Function;
 import java.util.function.Predicate;

@@ -1,4 +1,4 @@
-package predicateExamples.employeeManagementApp;
+package predicateInterface.employeeManagementApp;
 
 import java.util.ArrayList;
 import java.util.function.Predicate;
