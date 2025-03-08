@@ -175,3 +175,14 @@ BiFunction
 2. LongSupplier public long getAsLong()
 3. DoubleSupplier public double getAsDouble()
 4. BooleanSupplier public boolean getAsBoolean()
+
+
+## Unary and Binary Operator - primitive versions
+
+1. IntUnaryOperator: public int applyAsInt(int)
+2. LongUnaryOperator: public long applyAsLong(long)
+3. DoubleUnaryOperator: public double applyAsDouble(double)
+
+4. IntBinaryOperator public int applyAsInt(int i,int j)
+5. LongBinaryOperator public long applyAsLong(long l1,long l2)
+6. DoubleBinaryOperator public double applyAsLong(double d1,double d2)
