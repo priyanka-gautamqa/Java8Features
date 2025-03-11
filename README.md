@@ -83,7 +83,7 @@ public void accept(T t,U u);
 
 # Primitive type Functional Interfaces
 
-## Primitive Predicate 
+### Primitive Predicate 
 ### IntPredicate
 
 Take input type as int hence no need to specify while declaring
@@ -112,7 +112,7 @@ public boolean test(long i);
 //default methods: and(),or(),negate()
 }
 
-## Primitive Type Functional Interfaces for Function
+### Primitive Type Functional Interfaces for Function
 
 Below 1 to 3 are about input type hence while defining teh function we need to just specify the return type. Name of function is telling about the input type
 1. IntFunction: can take int type as input and return any type
@@ -160,7 +160,7 @@ BiFunction
 15. ToDoubleBiFunction: return type must be double type but inputs can be anytype
     public double applyAsDouble(T t, U u)
 
-## Primitive Version for Consumer:
+### Primitive Version for Consumer:
 
 1. IntConsumer public void accept(int value)
 2. LongConsumer public void accept(long value)
@@ -169,7 +169,7 @@ BiFunction
 5. ObjLongConsumer<T> public void accept(T t,long value)
 6. ObjDoubleConsumer<T> public void accept(T t,double value)
 
-## Primitive Versions for Supplier:
+### Primitive Versions for Supplier:
 
 1. IntSupplier public int getAsInt();
 2. LongSupplier public long getAsLong()
@@ -177,7 +177,7 @@ BiFunction
 4. BooleanSupplier public boolean getAsBoolean()
 
 
-## Unary and Binary Operator - primitive versions
+### Unary and Binary Operator - primitive versions
 
 1. IntUnaryOperator: public int applyAsInt(int)
 2. LongUnaryOperator: public long applyAsLong(long)
@@ -186,3 +186,24 @@ BiFunction
 4. IntBinaryOperator public int applyAsInt(int i,int j)
 5. LongBinaryOperator public long applyAsLong(long l1,long l2)
 6. DoubleBinaryOperator public double applyAsLong(double d1,double d2)
+
+
+## Double Colon Operator
+
+This concept is an alternative to lambda expressions
+Use for - 
+1. Method reference
+2. Constructor Reference
+
+Condition to use double colon operator for reference is 
+    methods should have same argument type
+
+### Method Reference
+Static methods
+ClassName :: MethodName
+
+Instance methods
+ObjectOfClass :: MethodName
+
+### Constructor Reference
+ClassName :: new
