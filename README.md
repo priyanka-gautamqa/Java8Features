@@ -207,3 +207,24 @@ ObjectOfClass :: MethodName
 
 ### Constructor Reference
 ClassName :: new
+
+
+# STREAMS
+
+Purpose - To process objects from the collection and perform bulk operation on the given collection
+
+To create stream object
+Stream s = c.stream()  , where c is any collection
+
+To Configure and Process the stream object :
+1. filter(Predicate<T> t) : to filter objects
+2. map(Function<T,R> f) : to perform some function on the object
+3. collect() - to collect values
+4. count() - to count values in the stream
+5. sorted() - DNSO
+6. sorted(Comparator c) - customized sorting order
+7. min(Comparator c)
+8. max(Comparator c)
+9. forEach(lambda expression)
+10. toArray() - to copy elements to array
+11. Stream.of() -> for any  group of values and array
